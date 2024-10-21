@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jco Company</title>
+    <link rel="stylesheet" href="../output.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- NAVBAR START --> 
+    <nav class="flex p-4 shadow-md fixed bg-white w-full z-10 bg-opacity-80 max-sm:mt-0">
+      <div class="container flex justify-between items-center">
+        <img src="../assets/new_jco_logo.png" class="w-14 h-14" />
+        <ul class="flex gap-8 max-sm:hidden">
+          <li class="text-cyan-600"><a href="">Home</a></li>
+          <select id="menu" onchange="handleSelect()">
+            <option value="">Menu</option>
+            <option value="../pages/Menu/Donuts.html">Donuts</option>
+            <option value="">Drinks</option>
+          </select>
+          <li><a href="../pages/Location/Location.html">Location</a></li>
+        </ul>
+        <h3 class="max-sm:hidden text-red-800"><a href="../pages/Contact/Contact.html">Contact</a></h3>
+      </div>
+      <button></button>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <div class="max-sm:p-0 p-4">
+      <img src="../assets/hero.jpg" class="w-full h-96 object-cover max-sm:h-60 mt-20 max-sm:mt-0 max-sm:relative max-sm:top-24" data-aos="fade-right" data-aos-duration="2000" />
+    </div>
+    <!-- HERO END -->
+
+    <!-- ABOUT START  -->
+    <h1 class="mt-8 text-4xl font-semibold text-center about-heading opacity-95 max-sm:mt-32 max-sm:text-left max-sm:text-3xl max-sm:ml-2 text-setOrange" data-aos="fade-down" data-aos-duration="1000">
+      ABOUT COMPANY
+    </h1>
+    <div class="mx-96 border-setOrange border max-sm:mx-20"></div>
+    <div class="flex justify-center items-center max-sm:block max-sm:p-2">
+      <div class="flex max-w-2xl mt-4 max-sm:block">
+        <h1 class="text-2xl font-semibold opacity-80" data-aos="fade-right" data-aos-duration="1200">
+          Like so many others, it started with a dream -- a longing.
+        </h1>
+        <p class="text-xl font-semibold text-justify max-sm:ml-0 max-sm:text-base ml-20 leading-8 opacity-90 max-sm:mt-4" data-aos="fade-left" data-aos-duration="1500">
+          Donuts weren’t always this glamorous. Let’s rewind to early 2000’s,
+          when the fluffy J.CO Donuts you love didn’t exist yet. They were more
+          dry, more cakey, and really much too sugary as they’re doused in thick
+          coats of sugar and artificial toppings. This is not what we’re about.
+        </p>
+      </div>
+    </div>
+    <div class="flex justify-center items-center max-sm:p-4">
+        <p class="mb-20 mt-4 max-sm:mt-2 max-w-2xl text-lg text-justify opacity-85" data-aos="fade-up" data-aos-duration="1200">
+            toppings to meld with our soft and fluffy donuts. We’re about pairing
+            these delectable donuts with their perfect complement--coffee. We change
+            and adapt to local tastes and flavors, and we love that each country
+            brings new flavor discoveries and new cultures for us to explore. With
+            over 300 stores worldwide, our passion for exploration and innovation will
+            continue to fuel our dreams to share J.CO wherever you may be in the
+            world, one Donut and Coffee at a time.
+            We’re about creating mouthwatering combinations of all kinds of premium 🍩
+        </p>
+    </div>
+    <!-- ABOUT END -->
+
+    <!-- PROMO MENU START -->
+    <div class="flex justify-center items-center">
+      <img src="../assets/menu.jpg" class="object-cover mb-10 image-promo/promo" data-aos="fade-right" data-aos-duration="1500">
+    </div>
+    <h1 class="text-2xl font-bold ml-4">MENU PROMO ❗❗</h1>
+    <div class="flex justify-center items-center">
+      <div class="grid grid-cols-3 gap-8 p-4 max-sm:grid-cols-2 max-sm:gap-6 mb-10">
+        <img src="../assets/promo/promo-1.jpg" class="w-80 image-scale">
+        <img src="../assets/promo/promo-2.jpg" class="w-80 image-scale">
+        <img src="../assets/promo/promo-3.jpg" class="w-80 image-scale">
+        <img src="../assets/promo/promo-4.jpg" class="w-80 image-scale">
+        <img src="../assets/promo/promo-5.jpg" class="w-80 image-scale">
+        <img src="../assets/promo/promo-6.jpg" class="w-80 image-scale">
+      </div>
+    </div>
+    <!-- PROMO MENU END -->
+
+    <!-- FOUNDER START -->
+    <div class="flex justify-center items-center mb-20 mt-6 max-sm:block">
+      <div class="flex max-sm:flex-col items-center">
+        <img src="../assets/founder/founder.png" class="image-radius w-52 h-52">
+          <div class="max-w-80 ml-10 max-sm:text-center max-sm:ml-0">
+              <h1 class="text-center font-semibold text-xl text-setOrange">Owner</h1>
+              <p class="text-justify">J. CO Donuts & Coffee is a franchise of café restaurant chains that sell donuts, coffee and frozen yogurt and they have been rapidly expanding their store chains throughout South East Asia countries such as Malaysia, Singapore, Philippines, and Hong Kong.</p>
+          </div>
+      </div>
+    </div>
+    <!-- FOUNDER END -->
+
+    <!-- GALERY START -->
+    <div class="flex justify-center items-center">
+      <div class="grid grid-cols-3 gap-8 max-sm:grid-cols-1">
+        <img src="../assets/galery/galery-1.jpg" class="w-96 h-80 object-cover shadow-xl" alt="">
+        <img src="../assets/galery/galery-2.jpg" class="w-96 h-80 object-cover shadow-xl" alt="">
+        <img src="../assets/galery/galery-3.jpg" class="w-96 h-80 object-cover shadow-xl" alt="">
+      </div>
+    </div>
+    <!-- GALERY END -->
+    <!-- EXPLORE PRODUCT START -->
+    <div class="flex justify-center items-center mb-20 mt-16">
+      <button class="border text-setOrange border-setOrange py-2 px-6 hover:bg-setOrange hover:text-slate-50 text-xl font-semibold transition duration-300 rounded-md"><a href="../pages/Menu/AllMenu.html">EXPLORE OUR MENU</a></button>
+    </div>
+    <!-- EXPLORE PRODUCT END -->
+    <!-- FOOTER START -->
+    <footer class="bg-setOrange py-8">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Informasi Kontak -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Kontak Kami</h3>
+                <p>Alamat: Jalan Contoh No. 123</p>
+                <p>Telepon: (0123) 456-789</p>
+                <p>Email: info@contoh.com</p>
+            </div>
+            <!-- Peta Lokasi -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Peta Lokasi</h3>
+                <img src="map.jpg" alt="Peta Lokasi" class="w-full">
+            </div>
+            <!-- Tautan Sosial Media -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Ikuti Kami</h3>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-400">Facebook</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Twitter</a></li>
+                    <li><a href="#" class="hover:text-gray-400">LinkedIn</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Instagram</a></li>
+                </ul>
+            </div>
+            <!-- Pendekatan Perusahaan -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Tentang Kami</h3>
+                <p>Perusahaan kami berkomitmen untuk memberikan layanan terbaik kepada pelanggan.</p>
+            </div>
+        </div>
+        <!-- Hak Cipta -->
+        <div class="mt-10 text-center text-sm">&copy; 2024 Contoh Company. Hak Cipta Dilindungi.</div>
+    </div>
+      
+    </footer>
+    <!-- FOOTER END -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
